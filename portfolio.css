@@ -1,12 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-/* Background + overall layout */
 body {
   background-color: #0a0a0a;
   color: #e0e0e0;
@@ -15,14 +12,10 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
-/* Metallic gold gradient variable */
 :root {
   --gold-gradient: linear-gradient(135deg, #b8860b, #ffd700, #b8860b);
   --gold: #d4af37;
 }
-
-/* Container with border */
 .portfolio-container {
   width: 90%;
   max-width: 1100px;
@@ -37,15 +30,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* JJ Logo (Top Left) */
 .logo {
   font-style: italic;
   font-family: "Poppins", sans-serif;
@@ -56,8 +45,6 @@ header {
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
   text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-
-  /* 🟡 Circle styling */
   border: 2px solid var(--gold);
   border-radius: 50%;
   width: 55px;
@@ -67,8 +54,6 @@ header {
   align-items: center;
 }
 
-
-/* Social icons (Top Right) */
 .socials {
   display: flex;
   gap: 18px;
@@ -86,7 +71,6 @@ header {
   transform: scale(1.1);
 }
 
-/* Main content */
 main {
   display: flex;
   justify-content: space-between;
@@ -94,7 +78,6 @@ main {
   margin-top: 60px;
 }
 
-/* Intro Section */
 .intro {
   width: 60%;
 }
@@ -116,7 +99,6 @@ main {
   padding-left: 15px;
 }
 
-/* Projects Section */
 .projects {
   width: 30%;
 }
@@ -147,15 +129,6 @@ main {
   color: #ffd700;
 }
 
-/* Footer */
-footer {
-  text-align: right;
-  margin-top: 60px;
-  font-size: 0.9rem;
-  color: #777;
-}
-
-/* Responsive layout */
 @media (max-width: 768px) {
   main {
     flex-direction: column;
